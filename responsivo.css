@@ -1,0 +1,152 @@
+@media screen and (max-width: 1200px) {
+    .texto{
+        width: 60%;
+    }
+
+    .texto h2{
+        font-size: 2.8rem;
+        margin-bottom: 0px;
+    }
+    .texto p{
+        font-size: 12px;
+    }
+
+    .btn-explore{
+        font-size: 10px;
+        padding: 7px 19px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+
+    .textoUm{
+        padding: 5px;
+    }
+
+    .textoUm h1{
+        font-size: 0.8rem;
+    }
+
+    .menu a{
+        font-size: 13px;
+    }
+
+    .texto h2{
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+    #git{
+        width: 40px;
+    }
+
+    .rede img{
+        width: 30px;
+    }
+
+    .card{
+    width: 150px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 30px;
+    }
+
+    .clima{
+    position: relative;
+    bottom: 5px;
+    width: 40px;
+    height: 40px;
+    }
+
+    .temp{
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+
+    .cidade{
+        font-size: 10px;
+    }
+
+    .texto-openweather{
+        font-size: 7px;
+    }
+
+    ul li h1{
+        font-size: clamp(1rem, 4vw, 36px);
+    }
+
+    ul li p{
+        line-height: 2rem;
+        text-align: justify;
+    }
+  }
+  
+  @media screen and (max-width: 630px) {
+
+    .texto{
+        width: 100%;
+    }
+
+    .texto h2{
+        font-size: 0.9rem;
+    }
+
+    .textoUm h1{
+        font-size: 0.65rem;
+    }
+
+    .texto p{
+        font-size: 9px;
+        line-height: 14px;
+        margin-bottom: 10px;
+    }
+
+    .menu a{
+        padding: 11px 11px;
+    }
+
+    .dois{
+        width: 90%;
+    }
+
+    .card{
+    width: 108px;
+    height: 60px;
+    padding: 13px 10px;
+    border-radius: 30px;
+    }
+
+    .clima{
+    width: 22px;
+    height: 22px;
+    }
+
+    .temp{
+        font-size: 12px;
+        bottom: 10px;
+    }
+
+    .cidade{
+        font-size: 7.5px;
+    }
+    .texto-openweather{
+        font-size: 5px;
+    }
+
+    .card p{
+        margin: 5px 0;
+    }
+
+    .container{
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .oitenta{
+        left: 5%;
+    }
+
+    .btn-explore{
+        font-size: 8px;
+        padding: 5px 14px;
+    }
+  }

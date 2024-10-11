@@ -106,12 +106,12 @@
     }
 
     .texto h2{
-        font-size: 3.3rem;
+        font-size: 3.1rem;
     }
 
     .textoUm h1{
         padding: 10px;
-        font-size: 1.1rem;
+        font-size: 16px;
     }
 
     .texto p{
@@ -138,6 +138,8 @@
     display: grid;
     grid-template-columns: 1fr; /* Uma coluna */
     background-image: linear-gradient(45deg, #a0dbffd8, #1b9ef0d7);
+    border: none;
+    box-shadow: 0px -1px 3px rgba(255, 255, 255, 0.353);
     }
 
     .card p{

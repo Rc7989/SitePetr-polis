@@ -82,30 +82,48 @@
   
   @media screen and (max-width: 630px) {
 
+    .inicio{
+    background: url(Petropolis/parnaso-reabre-travessia-petropolis-teresopolis-e-camping-25-03-2022-14-53-41-9289.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    }
+
+    #filter{
+        background-color: rgba(0, 0, 0, 0.573);
+        height: 100vh;
+    }
+
+    video{
+        display: none;
+    }
+
     #explore{
         padding-top: 2rem;
     }
 
     .texto{
-        width: 100%;
+        max-width: 65%;
     }
 
     .texto h2{
-        font-size: 0.9rem;
+        font-size: 3.3rem;
     }
 
     .textoUm h1{
-        font-size: 0.65rem;
+        padding: 10px;
+        font-size: 1.1rem;
     }
 
     .texto p{
-        font-size: 9px;
+        font-size: 11px;
         line-height: 14px;
         margin-bottom: 10px;
     }
 
     .menu a{
         padding: 11px 11px;
+        font-size: 17px;
+        text-shadow: none;
     }
 
     .dois{
@@ -113,36 +131,53 @@
     }
 
     .card{
-    width: 108px;
-    height: 60px;
-    padding: 13px 10px;
+    width: 70px;
+    height: 120px;
+    padding: 15px 7px;
     border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr; /* Uma coluna */
+    background-image: linear-gradient(45deg, #a0dbffd8, #1b9ef0d7);
+    }
+
+    .card p{
+        margin: 0px 0px;
+    }
+
+    .topo{
+        display: grid;
+        grid-template-columns: 1fr; /* Uma coluna */
+        text-align: center;
+        justify-items: center;
+    }
+
+    .baixo{
+        display: grid;
+        grid-template-columns: 1fr; /* Uma coluna */
+        top: 0px;
     }
 
     .clima{
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
     }
 
     .temp{
-        font-size: 12px;
-        bottom: 10px;
+        font-size: 16px;
     }
 
     .cidade{
         font-size: 7.5px;
     }
     .texto-openweather{
-        font-size: 5px;
-    }
-
-    .card p{
-        margin: 5px 0;
+        font-size: 6px;
+        position: absolute;
+        bottom: 0px;
     }
 
     .container{
         right: 10px;
-        bottom: 10px;
+        bottom: 30%;
     }
 
     .oitenta{
@@ -150,7 +185,11 @@
     }
 
     .btn-explore{
-        font-size: 8px;
-        padding: 5px 14px;
+        font-size: 12px;
+        padding: 8px 40px;
+    }
+    
+    .cidade{
+        display: none;
     }
   }

@@ -15,9 +15,11 @@ body {
 
 .inicio {
   position: relative;
-  max-width: 100%;
-  max-height: 729px;
-  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  position: relative;
 }
 
 nav {
@@ -75,7 +77,6 @@ a:hover {
 
 .oitenta {
   display: inline-flex;
-  justify-content: space-between;
   position: absolute; /* Permite que o h1 seja posicionado em relação ao contêiner */
   top: 23%; /* Posiciona o topo do h1 no meio do contêiner */
   left: 14%; /* Posiciona o lado esquerdo do h1 no meio do contêiner */
@@ -158,11 +159,6 @@ a:hover {
 
 .btn-explore:hover::before {
   width: 100%;
-}
-
-video {
-  width: 100%;
-  position: relative;
 }
 
 .prev {

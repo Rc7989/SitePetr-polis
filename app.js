@@ -75,8 +75,8 @@ async function getWeather(location) {
 
     const weatherInfoDiv = document.getElementById("top");
     weatherInfoDiv.innerHTML = `
+            <p class="temp">${temperaturaArredondada}°</p>
             <img class="clima" src="${imageUrl}" alt="${descricaoEmPortugues}">
-            <p class="temp">${temperaturaArredondada +1}°</p>
         `;
     const bottom = document.getElementById("bot");
     bottom.innerHTML = `

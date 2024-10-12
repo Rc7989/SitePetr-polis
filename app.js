@@ -1,6 +1,6 @@
 const API_KEY = "c81f4dafe5d2c205fda8c987771b3d5c"; // Substitua pela sua chave
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
-const DEFAULT_LOCATION = "centro,petrópolis"; // Cidade padrão
+const DEFAULT_LOCATION = "petrópolis"; // Cidade padrão
 
 const diasDaSemana = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
 const meses = [
@@ -41,7 +41,7 @@ const tradução = {
 // Mapeamento de condições climáticas para caminhos de imagens
 const imageMap = {
   "clear sky": "sol.png",
-  "few clouds": "sol.png",
+  "few clouds": "nuvem-sol.png",
   "scattered clouds": "nuvem-sol.png",
   "broken clouds": "nuvem-sol.png",
   "overcast clouds": "nublado.png",

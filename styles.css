@@ -66,16 +66,29 @@ ul {
 }
 
 a {
+  position: relative;
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 400;
   text-shadow: 1px 1px 1px rgb(30, 30, 30);
   transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
 
-a:hover {
-  cursor: pointer;
-  color: rgb(0, 0, 0);
+ul a::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 0.15rem;
+  background-color: rgb(47, 47, 47); /* Cor da barra */
+  bottom: 15px;
+  left: 12px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+ul a:hover::after {
+  transform: scaleX(1);
 }
 
 .oitenta {

@@ -10,8 +10,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgba(246, 253, 255, 0.93);
+  background-color: white;
 }
+
 
 .inicio {
   position: relative;
@@ -239,13 +240,15 @@ ul li h1{
   font-family: "Poppins", sans-serif;
   text-transform: none;
   color: black;
-  font-size: 30px;
-  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 33px;
+  margin-bottom: 1rem;
 }
 
 ul li img{
   all: unset;
   max-width: 100%;
+  
   margin-bottom: 3rem;
 }
 
@@ -254,6 +257,7 @@ ul li p{
   line-height: 3rem;
   color: #333333;
   text-align: justify;
+  margin-bottom: 2rem;
 }
 
 #footer{

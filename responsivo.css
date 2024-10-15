@@ -106,12 +106,12 @@
     .inicio{
     background: url(Petropolis/parnaso-reabre-travessia-petropolis-teresopolis-e-camping-25-03-2022-14-53-41-9289.jpeg) no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     }
 
     #filter{
         background-color: rgba(0, 0, 0, 0.573);
-        height: 100vh;
+        height: 90vh;
     }
 
     video{

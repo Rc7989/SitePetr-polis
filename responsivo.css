@@ -97,11 +97,14 @@
 
     ul li p{
         line-height: 2rem;
-        text-align: justify;
     }
   }
   
   @media screen and (max-width: 630px) {
+
+    ul li p{
+        font-size: 13px;
+    }
 
     ul a::after{
         display: none;

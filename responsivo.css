@@ -131,6 +131,7 @@
 
     .texto{
         width: 75%;
+        text-align: justify;
     }
 
     .texto h2{

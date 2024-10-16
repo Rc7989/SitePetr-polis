@@ -97,12 +97,9 @@ ul a:hover::after {
 }
 
 .oitenta {
-  display: inline-flex;
   position: absolute; /* Permite que o h1 seja posicionado em relação ao contêiner */
   top: 23%; /* Posiciona o topo do h1 no meio do contêiner */
   left: 14%; /* Posiciona o lado esquerdo do h1 no meio do contêiner */
-  z-index: 10;
-  margin-left: auto;
 }
 
 .rede {
@@ -126,8 +123,7 @@ ul a:hover::after {
 
 .texto {
   width: 45%;
-  position: relative; /* Permite que o h1 seja posicionado em relação ao contêiner */
-  color: rgb(255, 255, 255); /* Altera a cor do texto, se necessário */
+  color: white; /* Altera a cor do texto, se necessário */
   letter-spacing: 1px;
   text-align: left;
 }

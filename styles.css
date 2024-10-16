@@ -23,6 +23,7 @@ body {
 video {
   width: 100%;
   position: relative;
+  z-index: -10;
 }
 
 nav {
@@ -317,4 +318,8 @@ ul li p{
    position:relative;
   bottom:15px; 
   right:0px;
+}
+
+.blur{
+  background: rgba(0, 0, 0, 0.55);
 }

@@ -103,6 +103,10 @@
   
   @media screen and (max-width: 630px) {
 
+    ul a::after{
+        display: none;
+    }
+
     .inicio{
     background: url(Petropolis/parnaso-reabre-travessia-petropolis-teresopolis-e-camping-25-03-2022-14-53-41-9289.jpeg) no-repeat;
     background-size: cover;
@@ -123,11 +127,11 @@
     }
 
     .texto{
-        max-width: 65%;
+        width: 75%;
     }
 
     .texto h2{
-        font-size: 3.1rem;
+        font-size: 2.8rem;
     }
 
     .textoUm h1{
@@ -136,9 +140,10 @@
     }
 
     .texto p{
-        font-size: 11px;
+        font-size: 10px;
         line-height: 14px;
         margin-bottom: 10px;
+        text-shadow: none;
     }
 
     .menu a{
@@ -204,12 +209,12 @@
     }
 
     .oitenta{
-        left: 5%;
+        left: 15%;
     }
 
     .btn-explore{
         font-size: 12px;
-        padding: 8px 40px;
+        padding: 0.3rem 0.8rem;
     }
     
     .cidade{

@@ -17,6 +17,10 @@ body {
   background-color: white;
 }
 
+:root {
+  --primary-green: #8dd6d7; /* Verde principal */
+  --text-white: #8ed3d4; /* Branco para texto ou fundo */
+}
 
 .inicio {
   position: relative;
@@ -48,10 +52,10 @@ nav {
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   position: relative;
   text-transform: uppercase;
-  color: white;
+  color: var(--primary-green);
   cursor: pointer;
 }
 .textoUm {
@@ -146,9 +150,9 @@ ul a:hover::after {
 
 .btn-explore {
   all: unset;
-  background: rgb(253, 253, 253);
+  background: var(--text-white);
   color: rgb(0, 0, 0);
-  padding: 10px 28px;
+  padding: 8px 30px;
   border-radius: 7px;
   cursor: pointer;
   transition: 0.5s;
@@ -157,7 +161,7 @@ ul a:hover::after {
 }
 
 .btn-explore:hover {
-  color: white;
+  color: black;
 }
 
 .btn-explore::before {
@@ -167,7 +171,7 @@ ul a:hover::after {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 
   border-radius: 6px;
   z-index: -1;
@@ -196,7 +200,7 @@ ul a:hover::after {
 .card {
   width: 220px;
   height: 150px;
-  background-image: linear-gradient(90deg,#98989863, #222222a9);
+  background: linear-gradient(180deg,#05454f, #3c9394);
   backdrop-filter: blur(3px);
   border-radius: 20px;
   padding: 20px;

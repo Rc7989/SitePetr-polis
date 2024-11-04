@@ -37,13 +37,12 @@ video {
 nav {
   top: 0px;
   position: absolute;
-  width: 100%;
+  min-width: 80%;
+  margin: 0 10%;
   z-index: 2;
 }
 
 .dois {
-  width: 75%;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,15 +62,10 @@ h1 {
   padding: 30px;
 }
 
-.menu a {
-  padding: 20px 20px;
-  margin: auto;
-}
-
 ul {
   display: inline-flex;
   justify-content: space-between;
-  width: 100%;
+  gap: 30px;
 }
 
 a {
@@ -82,22 +76,6 @@ a {
   text-shadow: 1px 1px 1px rgb(30, 30, 30);
   transition: 0.5s ease-in-out;
   cursor: pointer;
-}
-
-ul a::after {
-  content: "";
-  position: absolute;
-  width: 80%;
-  height: 0.15rem;
-  background-color: rgb(255, 255, 255); /* Cor da barra */
-  bottom: 15px;
-  left: 12px;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-}
-
-ul a:hover::after {
-  transform: scaleX(1);
 }
 
 .oitenta {
@@ -285,6 +263,7 @@ ul li p{
   flex-direction: column; /* Alinha os elementos em coluna */
   justify-content: center; /* Centraliza verticalmente */
   align-items: center; /* Centraliza horizontalmente */
+  text-align: center;
 }
 
 #footer h2{

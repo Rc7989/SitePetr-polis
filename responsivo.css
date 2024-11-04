@@ -26,7 +26,6 @@
   }
 
   @media screen and (max-width: 900px) {
-
     .inicio{
         height: 70vh;
     }
@@ -41,15 +40,11 @@
     }
 
     .textoUm{
-        padding: 5px;
-    }
-
-    .textoUm h1{
-        font-size: 0.8rem;
+        padding: 15px;
     }
 
     .menu a{
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .texto h2{
@@ -102,8 +97,24 @@
   
   @media screen and (max-width: 630px) {
 
+    .textoUm{
+        padding: 10px;
+    }
+
+    .textoUm h1{
+        font-size: 0.9rem;
+    }
+
+    .menu a{
+        font-size: 15px;
+    }
+
+    ul{
+        gap: 10px;
+    }
+
     ul li p{
-        font-size: 13px;
+        font-size: 15px;
     }
 
     ul a::after{
@@ -138,26 +149,11 @@
         font-size: 2.8rem;
     }
 
-    .textoUm h1{
-        padding: 10px;
-        font-size: 16px;
-    }
-
     .texto p{
         font-size: 10px;
         line-height: 14px;
         margin-bottom: 10px;
         text-shadow: none;
-    }
-
-    .menu a{
-        padding: 11px 11px;
-        font-size: 17px;
-        text-shadow: none;
-    }
-
-    .dois{
-        width: 90%;
     }
 
     .card{
